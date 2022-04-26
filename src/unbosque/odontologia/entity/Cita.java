@@ -13,6 +13,19 @@ public class Cita {
 	private int id;
 	private String jornada;
 
+	/**
+	 * 
+	 * Constructor clase cita
+	 * 
+	 * @param nombre
+	 * @param apellido
+	 * @param sexo
+	 * @param motivoConsulta
+	 * @param pFecha
+	 * @param tipoCita
+	 * @param valorPromedioProcedimiento
+	 * @param jornada
+	 */
 	public Cita(String nombre, String apellido, char sexo, String motivoConsulta, Date pFecha,String tipoCita, 
 			double valorPromedioProcedimiento, String jornada)
 	{
@@ -98,15 +111,21 @@ public class Cita {
 	public void setId(int id) {
 		this.id = id;
 	}
-	// metodo pra llenar el id
+	/**
+	 * Método que devuelve un número aleatorio de ID para lass citas
+	 * @return número aleatorio de ID
+	 */
 	public int numeroAleatorioID() {
 		int resultado;
 		resultado=(int) (Math.random() * (100 - 999)) + 999;
 		return resultado;
 	}
 	
-	// mostar Informacion
 	
+	/**
+	 * Método que devuelve la información dentro del objecto cita
+	 * @return String of list
+	 */
 	public String mostrarInformacionCitaIndivudial() {
 		String lista;
 		lista = "Fecha: "+ this.fecha + " ID: "+ this.id;
