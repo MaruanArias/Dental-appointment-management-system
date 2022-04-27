@@ -7,3 +7,5 @@
 System for the management of dental appointment scheduling. The system performs the following functions.
 - [x] CRUD Objects of the quotation
 - [x] Print appointment list in PDF
+
+## Diagram Class
