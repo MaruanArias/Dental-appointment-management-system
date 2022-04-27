@@ -7,7 +7,11 @@ import unbosque.odontologia.entity.Agenda;
 import unbosque.odontologia.view.VentanaConsultarDisponibilidad;
 import unbosque.odontologia.view.VentanaModificarDatos;
 import unbosque.odontologia.view.VistaOdontologia;
-
+/**
+ * 
+ * @author Maruan E. Arias C.
+ * @version: 1.0
+ */
 
 
 public class AplAgendaCita {

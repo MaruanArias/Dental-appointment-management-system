@@ -24,7 +24,13 @@ public class ControllerCita implements ActionListener {
 	VentanaConsultarDisponibilidad ventanaDisponibilidad = null;
 	
 	
-
+/**
+ * Constructor clase ControllerCita
+ * @param agenda
+ * @param vistaOdontologia
+ * @param vistaModificar
+ * @param ventanaDisponibilidad
+ */
 	public ControllerCita(Agenda agenda, VistaOdontologia vistaOdontologia, VentanaModificarDatos vistaModificar,
 			VentanaConsultarDisponibilidad ventanaDisponibilidad) {
 		this.agenda = agenda;
@@ -34,7 +40,7 @@ public class ControllerCita implements ActionListener {
 		actionListener(this);
 	}
 
-	// METODO PARA ESCUCHAR EVENTOS
+	// Metodo para escuchar eventos
 	public void actionListener(ActionListener escuchador) {
 		
 		vistaOdontologia.botonEscogerSexo.addActionListener(escuchador);
