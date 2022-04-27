@@ -9,3 +9,4 @@ System for the management of dental appointment scheduling. The system performs 
 - [x] Print appointment list in PDF
 
 ## Diagram Class
+![image](https://github.com/MaruanArias/Dental-appointment-management-system/blob/main/img_guide/DiagramClass.png)
