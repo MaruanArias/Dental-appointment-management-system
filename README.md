@@ -8,5 +8,5 @@ System for the management of dental appointment scheduling. The system performs 
 - [x] CRUD Objects of the quotation
 - [x] Print appointment list in PDF
 
-## Diagram Class
+## Class Diagram
 ![image](https://github.com/MaruanArias/Dental-appointment-management-system/blob/main/img_guide/DiagramClass.png)
